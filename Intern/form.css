@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0); 
+}
+.box{
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 0px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+   border: 2px solid black;
+   
+   
+}
+.box label {
+    display: block;
+    margin-bottom: 3px; /
+}
+.box input {
+    margin-bottom: 5px; 
+    padding: 5px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.gender{
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 39px;
+}
